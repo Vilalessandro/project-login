@@ -19,28 +19,18 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
  */
 
-body, html {
+ body, html {
+    background-color:#b0965f;
     width: 100vw;
     height: 100vh;
-    background-color:#b0965f;
-
 }
 
  main {
-    margin: auto;
-    margin-top: 90px;
-    width: 45vw;
-    height: 75vh;
-    background-color: #ffffff;
-    border-radius: 10px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
  }
 
- main > section > div#imagem {
-    background-image: url(../imagens/pexels-pixabay-edit.jpg);
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 45vw;
-    height: 35vh;
-    background-color: black;
+ section#login {
+    background-color: #ffffff;
  }
