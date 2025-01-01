@@ -33,4 +33,6 @@ Grandes telas: acima de 1200px
 
  section#login {
     background-color: #ffffff;
+    width: 250px;
+    height: 500px;
  }
