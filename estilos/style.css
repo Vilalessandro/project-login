@@ -43,11 +43,13 @@ Grandes telas: acima de 1200px
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
  }
 
  section#login > div#imagem { 
     background-image: url(../imagens/pexels-pixabay-edit.jpg);
-    background-repeat: no-repeat;
     display: block;
     background-size: cover;
     background-position: left bottom;
