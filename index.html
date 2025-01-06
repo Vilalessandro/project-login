@@ -7,6 +7,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=login"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key"/> 
 </head>
 
 <body>
@@ -17,9 +19,24 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post"></form>
-                
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p> <br>
+                <form id="senha" action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <span class="material-symbols-outlined">login</span>                        
+                        <input type="email" name="usu" id="iusu" required minlength="5" maxlength="30" placeholder="Email Address" autocomplete="email">
+                    </p>
+                    <p>
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="isenha" required minlength="5" maxlength="10" placeholder="Password" autocomplete="current-password">
+                    </p> 
+                    <p id="link">
+                        <a href="#" target="_blank" >Forgot your password?</a>                        
+                    </p>
+                    <p id="coman">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </form>
             </div>
         </section>
     </main>
