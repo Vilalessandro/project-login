@@ -31,6 +31,7 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#formulario {
+        margin-top: 100px;
         float: right;
         width: 70%;
     }
@@ -53,6 +54,7 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#formulario {
+        margin-top: 100px;
         float: left;
         width: 50%;
     }
