@@ -39,7 +39,7 @@ Grandes telas: acima de 1200px
    border: 2px solid;
    border-radius: 5px;
    border-color: #816e4579;
-   transform: translateY(-7px);
+   transform: translateY(-7px); /*-- Transform vai sempre na ultima linha do codigo, dentro da div*/
  }
 
  section#login {
